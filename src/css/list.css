@@ -1,0 +1,196 @@
+#main-message {
+    width: 300px;
+    height: 65px;
+    position: relative;
+    bottom:50px;
+    overflow-y: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#main-message::-webkit-scrollbar {
+    width: 0
+}
+
+#new-message {
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    bottom: 20px
+}
+
+#message-text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    background: #3390EC;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+#sell {
+    width: 175px;
+    height: 35px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    background: #3390EC;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    bottom: 12.5px;
+    line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sell:hover {
+    color: #fffb00;
+    cursor: pointer;
+}
+
+#form {
+    font-size: 16px;
+    width: 175px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    z-index: 100;
+}
+
+#chat {
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: 1050px;
+    right: 400px
+}
+
+#profile {
+    width: 250px;
+    height: 50px;
+    background: hsl(52, 100%, 46%);
+    position: relative;
+    color: #000;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 60px
+}
+#profile:hover {
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+
+#floppa {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 30px
+}
+
+#floppa:hover {
+    cursor: pointer;
+}
+
+#floppa:active {
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+#line {
+    width: 300px;
+    height: 10px;
+    background-color:#000;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 75px;
+    background: linear-gradient(90deg, #FF0202 10%, #E6E6E6 70%)
+}
+
+#levels {
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+    background-color: #B8B8B8;
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#levels:hover {
+    color: white;
+    background: #000;
+    cursor: pointer
+}
+
+#info-levels {
+    display: flex;
+    width: 400px;
+    height: 10px;
+    justify-content: center;
+}
+
+#formMain {
+    text-align: center;
+    display: none;
+    height: 35px
+}
+#addForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 47.5px
+}
+
+#open {
+    width: 150px;
+    height: 18px;
+    background: #D9D9D9;
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat";
+    font-weight: 800;
+    position: relative;
+    bottom: 55px;
+    border-radius: 8px;
+    visibility: hidden;
+}
+
+#open:hover {
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+#mediaType {
+    width: 400px;
+    height: 812px;
+    margin-left: auto;
+    margin-right: auto;
+}
